@@ -689,6 +689,102 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     border-radius:0;
 }
 
+
+/* Blog*/
+.blog-section {
+	/* background: #f3f7f9; */
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.blog-thumb {
+	margin-bottom: 0;
+}
+
+.blog-text {
+	background: #fff;
+	padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.blog-text .post-date {
+	font-size: 14px;
+	font-family: "Futura", sans-serif;
+	color: rgba(17, 17, 17, 0.603);
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	display: block;
+	letter-spacing: 2px;
+}
+
+.blog-text .blog-title {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.blog-text .blog-title a {
+	color: #b636ff;
+}
+
+.blog-text .post-meta a {
+	font-size: 13px;
+	color: #75849a;
+	margin-right: 25px;
+}
+
+.blog-text .post-meta a:last-child {
+	margin-right: 0;
+}
+
+.blog-text .post-meta a span {
+	color: #cbd3df;
+}
+
+.blog-text .post-meta a i {
+	color: #16d0c5;
+}
+.btn-blog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.btn-blog .btn-read{
+    background: #b636ff;
+    border: 1px solid #b636ff;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+.btn-blog .btn-read:hover,
+.btn-blog .btn-read:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #b636ff;
+}
+
+.btn-blog .btn-read:active {
+  opacity: .5;
+}
+
 /*-------------------------------------
         11. Contact
 --------------------------------------*/
